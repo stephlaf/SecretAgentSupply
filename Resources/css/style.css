@@ -20,6 +20,7 @@ h3 {
 .container {
   max-width: 960px;
   margin: 0 auto;
+  /* border: 2px solid blue; */
 }
 
 .company_name {
@@ -157,4 +158,120 @@ header {
 footer {
   position: relative;
   top: 2rem;
+}
+
+
+/* Full Size Screen */
+
+@media only screen and (min-width: 1024px) {
+  .nav1023 {
+    display: none;
+  }
+  .itemzzz1023 {
+    display: none;
+  }
+}
+
+/* Tablet Screen */
+
+@media only screen and (max-width: 1023px) {
+  .container {
+    max-width:700px;
+    margin: 0 auto;
+    /* border: 2px solid orange; */
+  }
+  .nav {
+    display: none;
+  }
+  .nav1023 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text h1 {
+    font-size: 2.5rem;
+  }
+  .text h2 {
+    font-size: 1.5rem;
+  }
+  .itemzzz {
+    display: none;
+  }
+  .itemzzz1023 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .product {
+    width: 47%;
+    height: auto;
+  }
+  .infobox {
+    width: 35%;
+  }
+  .details {
+    width: 88%;
+  }
+}
+
+/* Phone Screen */
+
+@media only screen and (max-width: 469px) {
+  .logobox {
+    justify-content: center;
+  }
+  span {
+    display: none;
+  }
+  .container {
+    max-width: 400px;
+  }
+  header {
+    height: 15rem;
+  }
+  .new {
+    top: 10rem;
+    width: 100%;
+  }
+  .text {
+    padding: 1rem 2rem;
+    line-height: 1.5rem;
+  }
+  .text h1 {
+    font-size: 1rem;
+  }
+  .text h2 {
+    font-size: 0.77rem;
+  }
+  .itemzzz{
+    display: none;
+  }
+  .itemzzz1023{
+    display: none;
+  }
+  .itemzzz469 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .product {
+    width: 85%;
+    height: auto;
+  }
+  .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+  .infobox {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+  footer{
+    text-align: center;
+  }
+
 }
