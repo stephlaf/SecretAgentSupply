@@ -170,6 +170,9 @@ footer {
   .itemzzz1023 {
     display: none;
   }
+  .itemzzz469 {
+    display: none;
+  }
 }
 
 /* Tablet Screen */
@@ -195,6 +198,9 @@ footer {
     font-size: 1.5rem;
   }
   .itemzzz {
+    display: none;
+  }
+  .itemzzz469 {
     display: none;
   }
   .itemzzz1023 {
